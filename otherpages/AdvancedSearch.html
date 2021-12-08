@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="icon" type="image/x-icon" href="../images/favicon32x32.png" sizes="32x32">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Google Advanced Search</title>
+    <link rel="stylesheet" href="../assets/advanced.css">
+</head>
+
+<body>
+    <div id="WrapperOfAll">
+        <header id="header">
+            <div id="icon_container">
+                <img src="..//images/googlelogo_light_color_272x92dp.png" alt="">
+            </div>
+            <div id="upright">
+                <ul>
+                    <li><a href="../index.html">Search</a></li>
+                </ul>
+            </div>
+        </header>
+        <div class="mainTitle">
+            <Label>Advanced Search</Label>
+        </div>
+        <div class="separator"></div>
+        <main class="formContainer">
+            <form autocomplete="off" id="form" action="https://www.google.com/search" method="get" name="f">
+                <div class="t1Wrapper">
+                    <div id="t1">
+                        <span> Find pages with...</span>
+                    </div>
+                </div>
+                <div class="formLine">
+                    <div class="formLabels"><label for="xX4UFf">all these words:</label></div>
+                    <div class="formInputs">
+                        <input autofocus="autofocus" name="as_q" type="text">
+                    </div>
+                </div>
+                <div class="formLine">
+                    <div class="formLabels"><label for="xX4UFf">this exact word or phrase:</label></div>
+                    <div class="formInputs">
+                        <input autofocus="autofocus" name="as_epq" type="text">
+                    </div>
+                </div>
+                <div class="formLine">
+                    <div class="formLabels"><label for="xX4UFf"> any of these words:
+                        </label></div>
+                    <div class="formInputs">
+                        <input autofocus="autofocus" name="as_oq" type="text">
+                    </div>
+                </div>
+                <div class="formLine">
+                    <div class="formLabels"><label for="xX4UFf">none of these words:</label></div>
+                    <div class="formInputs">
+                        <input autofocus="autofocus" name="as_eq" type="text">
+                    </div>
+                </div>
+                <div class="formLine">
+                    <div class="formLabels"><label for="xX4UFf"> numbers ranging from:
+                        </label></div>
+                    <div class="formInputs">
+                        <input autofocus="autofocus" name="as_nlo" type="text">
+                        <div id="to">to</div>
+                        <input autofocus="autofocus" name="as_nhi" type="text">
+                    </div>
+                </div>
+                <div class="separator" style="margin: 18px 0;"></div>
+                <div class="t1Wrapper">
+                    <div id="t2">
+                        <span> Then narrow your results by...</span>
+                    </div>
+                </div>
+                <div class="formLine">
+                    <div class="formLabels"><label>language</label></div>
+                    <div class="formInputs"><input autofocus="autofocus" name="as_q" type="text"></div>
+                </div>
+
+
+
+                <div id="As_Btn_Container">
+                    <input id="AsBtn" type="submit" value="Advanced Search">
+                </div>
+            </form>
+
+
+        </main>
+    </div>
+</body>
+
+</html>
